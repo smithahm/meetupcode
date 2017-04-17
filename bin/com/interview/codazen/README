@@ -1,0 +1,15 @@
+The solution for coding test is written in Java language. I have created 2 separate class for Students and Course. 
+I have used List for Course as it is dynamic array, it is efficient than static array like size need not to be mentioned.
+I took 2hours 20 minutes to complete this, have not included many test cases. I have used JUnit to test this along with system.out.println statements in Main class.
+
+The time complexity is O(nlogn) + O(n) = O(nlogn).
+O(nlogn) is for sorting logic that I have used. I have used Comparator to sort the Student objects which implicitly used Merge sort so complexity if O(nlogn)
+O(n) is to find the intersection between two courses. 
+
+Space complexity is O(n) which is used in Course as ArrayList. where n is the number of Student objects in ArrayList Course.
+
+CourseTest.java - JUnit Testcases
+Main.Java - couple of println statements and logic to find intersection
+Student.java - Student attributes and their methods
+Course.java - Course attributes and their methods.
+All these classes are in com.interview.codazen package. 
